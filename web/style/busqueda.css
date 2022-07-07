@@ -1,4 +1,4 @@
-.site-wrapper {
+.site {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -47,7 +47,8 @@
     background-color: #9b84e4;
     text-align: center;
   }
- 
+
+  
   footer {
     color: white;
     text-align: center;
