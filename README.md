@@ -4,6 +4,8 @@
 
 ## Description ##
 
+This project understands the barrier that is created in the search for personnel with specific profiles and soft skills that are required in certain positions we intend to generate a tool that helps to create a communication bridge between employer and employee
+
 ## “YOU WANT IT, WE WILL FIND IT FOR YOU”
 ## Authors
 
