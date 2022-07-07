@@ -1,5 +1,4 @@
-
-![logo](https://user-images.githubusercontent.com/85509333/145334215-1a18b1d0-b75b-4b6b-8b01-dd06dd86d314.jpg)
+![portada 1](https://user-images.githubusercontent.com/85509333/177764684-416660ea-878c-47e7-83e9-60726450dc3e.jpg)
 
 ## Book_Talent ##
 
