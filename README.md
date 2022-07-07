@@ -3,16 +3,10 @@
 
 ##  ##
 
-## Description
-
-
-
-
-
-## Important Terms:
-
-   
-
+## “YOU WANT IT, WE WILL FIND IT FOR YOU”
 ## Authors
 
+* Laura Pérez Castillo [GitHub](https://github.com/lperezcas16)
+* Diana Ayala [GitHub](https://github.com/dmac24)
+* Pablo García [GitHub](https://github.com/PabloOsorix)
 * Maycol David Roa [GitHub](https://github.com/maycolroa)
