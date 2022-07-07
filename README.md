@@ -1,6 +1,6 @@
-![portada 1](https://user-images.githubusercontent.com/85509333/177764684-416660ea-878c-47e7-83e9-60726450dc3e.jpg)
-
 ## Book_Talent ##
+
+![portada 1](https://user-images.githubusercontent.com/85509333/177764684-416660ea-878c-47e7-83e9-60726450dc3e.jpg)
 
 ## Description ##
 
