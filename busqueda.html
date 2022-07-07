@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./web/style/busqueda.css">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bienvenid@!</title>
+
+</head>
+<body>
+    <div class="site-wrapper">
+      <header>Inicia tu Busqueda</header>
+  <main>
+    <div class="Card">
+        <div class="CardInner">
+        <label>Escribe aquí la profesión que buscas</label>
+        <div class="container">
+          <div class="Icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <div class="InputContainer">
+            <input list="profesiones" type="search" id="busca">
+            <datalist id="profesiones">
+                <option value="Programador"></option>
+                <option value="Diseñador"></option>
+                <option value="Barista"></option>
+                <option value="Constructor"></option>
+                <option value="Médico"></option>
+            </datalist>
+          </div>
+        </div>
+       </div>
+      </div>
+
+
+      <div class="container2">
+        <div class="control-group">
+          <h2>Experiencia</h2>
+          <label class="control control--radio">Menos de 1 año
+            <input type="radio" name="radio" checked="checked"/>
+            <div class="control__indicator"></div>
+          </label>
+          <label class="control control--radio">1 - 2 años
+            <input type="radio" name="radio"/>
+            <div class="control__indicator"></div>
+          </label>
+          <label class="control control--radio">2 - 4 años
+            <input type="radio" name="radio"/>
+            <div class="control__indicator"></div>
+          </label>
+          <label class="control control--radio">Mas de 4 años
+            <input type="radio" name="radio"/>
+            <div class="control__indicator"></div>
+          </label>
+          
+        </div>
+        
+        <div class="control-group">
+          <h2>Ubicación</h2>
+          <div class="select">
+            <select>
+              <option>Bogotá</option>
+              <option>Medellín</option>
+              <option>Cali</option>
+              <option>Neiva</option>
+              <option>Cartagena</option>
+              <option>Santa Marta</option>
+              <option>Pasto</option>
+              <option>Villavicencio</option>
+              <option>Bucaramanga</option>
+
+            </select>
+            <div class="select__arrow"></div>
+          </div>
+           </div>
+
+        <div class="control-group">
+          <h2>Educación</h2>
+          <label class="control control--radio">Bachiller
+            <input type="radio" name="radio2" checked="checked"/>
+            <div class="control__indicator"></div>
+          </label>
+          <label class="control control--radio">Universitario
+            <input type="radio" name="radio2"/>
+            <div class="control__indicator"></div>
+          </label>
+          <label class="control control--radio">Especialización
+            <input type="radio" name="radio2"/>
+            <div class="control__indicator"></div>
+          </label>
+          <label class="control control--radio">Maestría
+            <input type="radio" name="radio2"/>
+            <div class="control__indicator"></div>
+          </label>
+        </div>
+      </div>
+  </main>
+  <footer>Copyright © 2022. Todos los derechos reservados
+  </footer>
+</div> 
+</body>
+</html>
+    

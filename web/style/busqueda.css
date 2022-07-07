@@ -1,0 +1,311 @@
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  body {
+    height: 100%;
+  }
+  
+  body {
+        background: #e6e6e6;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  header,
+  main {
+    padding: 40px;
+  }
+  
+  main {
+    margin: 24px auto;
+  }
+  
+  h1, p {
+    margin-bottom: 24px;
+  }
+  
+  p {
+    line-height: 1.4;
+  }
+  
+  label {
+    font-weight: 700;
+  }
+  
+  header {
+    color: white;
+    background-color: #9b84e4;
+    text-align: center;
+  }
+ 
+  footer {
+    color: white;
+    text-align: center;
+    background-color: #ac9cf0;
+    padding: 18px;
+  }
+  
+  .main-content {
+    display: none;
+  }
+  
+  input:checked ~ .main-content {
+    display: block;
+  }
+  
+  .Card {
+    padding: 1px;
+    border-radius: 30px;
+    background: linear-gradient(-67deg, #7c7cec,#b494f4);
+    overflow: hidden;
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.6), 2px 2px 12px #c8d8e7;
+    width: 880px;
+    justify-content: center;
+  }
+  
+  .CardInner {
+    padding: 16px 16px;
+    background-color:#d6d2e1;
+    border-radius: 30px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Icon {
+    min-width: 46px;
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-right: 12px;
+    box-shadow: -2px -2px 6px rgb(252, 252, 252), 2px 2px 12px #ffffff;
+    background-color: #9b84e4;
+  }
+  .Icon svg {
+    transform: translate(-1px, -1px);
+  }
+  
+  label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: block;
+    color: #ffffff;
+    margin-bottom: 16px;
+    background: linear-gradient(45deg,  #67569c, #7c6ea8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .InputContainer {
+    width: 100%;
+  }
+  
+  input {
+    background-color:  #dcddf7 ;
+    padding: 16px 32px;
+    border: none;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #7a6897;
+    -webkit-appearance: none;
+    transition: all 240ms ease-out;
+    width: 100%;
+  }
+  input::placeholder {
+    color: #778592;
+  }
+  input:focus {
+    outline: none;
+    color: #786497;
+    background-color: #eff5fa;
+  }
+  
+  .InputContainer {
+    --top-shadow: inset 1px 1px 3px #c5d4e3, inset 2px 2px 6px #c5d4e3;
+    --bottom-shadow: inset -2px -2px 4px rgba(255,255,255, .7);
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .InputContainer:before, .InputContainer:after {
+    left: 0;
+    top: 0;
+    display: block;
+    content: "";
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .InputContainer:before {
+    box-shadow: var(--bottom-shadow);
+  }
+  .InputContainer:after {
+    box-shadow: var(--top-shadow);
+  }
+/* boxes */
+
+  .container2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+    margin-top: 0;
+    color:  #75688f;
+  }
+  .control-group {
+    display: inline-block;
+    vertical-align: top;
+    background:  #d4cbed;
+    text-align: left;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    padding: 30px;
+    width: 210px;
+    height: 210px;
+    margin: 25px;
+  }
+  .control {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  .control__indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+  }
+  .control--radio .control__indicator {
+    border-radius: 50%;
+  }
+  .control:hover input ~ .control__indicator,
+  .control input:focus ~ .control__indicator {
+    background: rgb(255, 255, 255);
+  }
+  .control input:checked ~ .control__indicator {
+    background: #75688f;
+  }
+  .control:hover input:not([disabled]):checked ~ .control__indicator,
+  .control input:checked:focus ~ .control__indicator {
+    background: #0e107d;
+  }
+  .control input:disabled ~ .control__indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  .control__indicator:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+  .control input:checked ~ .control__indicator:after {
+    display: block;
+  }
+  .control--checkbox .control__indicator:after {
+    left: 8px;
+    top: 4px;
+    width: 3px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  .control--checkbox input:disabled ~ .control__indicator:after {
+    border-color: #7b7b7b;
+  }
+  .control--radio .control__indicator:after {
+    left: 7px;
+    top: 7px;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .control--radio input:disabled ~ .control__indicator:after {
+    background: #7b7b7b;
+  }
+  .select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .select select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 15px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #e6e6e6;
+    color: #7b7b7b;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  .select select::-ms-expand {
+    display: none;
+  }
+  .select select:hover,
+  .select select:focus {
+    color: #636475;
+    background: rgb(245, 233, 233);
+  }
+  .select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .select__arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+  }
+  .select select:hover ~ .select__arrow,
+  .select select:focus ~ .select__arrow {
+    border-top-color: #000;
+  }
+  .select select:disabled ~ .select__arrow {
+    border-top-color: #ccc;
+  }
