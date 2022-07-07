@@ -16,6 +16,9 @@ This project understands the barrier that is created in the search for personnel
 * Change directories into the repository: cd Book_Talent
 * download the necessary libraries and driver from google
 * Run the program
+## Testing the Program
+
+![run](https://user-images.githubusercontent.com/85509333/177771613-47667fbb-fad6-4468-b8dd-1ad6dd8b5c1a.jpeg)
 
 ## “YOU WANT IT, WE WILL FIND IT FOR YOU”
 ## Authors
