@@ -8,6 +8,8 @@ This project understands the barrier that is created in the search for personnel
 
 ## Infra structure ##
 
+![tecnolog](https://user-images.githubusercontent.com/85509333/177768141-eb8d8d90-4cc9-4747-bab4-6f17e7a509b7.jpeg)
+
 ## “YOU WANT IT, WE WILL FIND IT FOR YOU”
 ## Authors
 
